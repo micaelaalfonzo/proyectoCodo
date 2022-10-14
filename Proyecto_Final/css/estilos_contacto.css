@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Playfair+Display:wght@400;600;800&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.form-container{
+  width:60%;
+  max-width:700px;
+  min-width: 300px;
+  background-color:#0038DD;
+  padding:20px;
+  color:#FFFFFF;
+  position: relative;
+  padding-bottom:45px;
+  min-height:620px;
+}
+
+.text-headerC{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+    color: #fff;
+    letter-spacing: 0.07em;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.container_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_container{
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+
+}
+
+.title{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+input , select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ffff;
+    border-radius: 6px;
+  }
+
+  label{
+    color:#ffff;
+    padding: 10px;
+  }
+
+  .pl{
+    text-align:center;
+    margin-top:30px;
+  }
+
+  .form-container{
+    width:80%;
+    max-width:900px;
+    min-width: 500px;
+    padding:40px;
+    color:#FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom:45px;
+    min-height:700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-container label{
+    display:block;
+    margin:15px 0 4px 0;
+  }
+
+  .form-container input[type="text"], .form-container textarea{
+    display:block;
+    width:100%;
+    background-color:#ffff;
+    color:#0038DD;
+    padding-left:5px;
+  }
+  
+  .form-container select{
+    display:block;
+    width:100%;
+    background-color:#ffff;
+    color:#0038DD;
+    padding-left:5px;
+  }
+
+  .btn-prim{
+    width:20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color:#ffff;
+    color:#0038DD;
+    position: relative;
+    font-size: 17px;
+  }
+
+  .warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #dd000b;
+    padding-top: 20px;
+  }
+
+  

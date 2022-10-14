@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imagenes/letra-b.ico">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/estilos_contacto.css">
+    <link rel="shortcut icon" href="./imagenes/letra-b.ico">
+    <title>BERLITZ | Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <section class="nav_container">
+                <img class="logo" src="../imagenes/Berlitz_Sprachschulen_logo.png" alt="logo">
+                <label for="menu" class="nav_label">
+                    <img src="./assets/menu.svg" alt="nav_img">
+                </label>
+                <input type="checkbox" id="menu" class="nav_input">
+                <ul class="nav_menu">
+                    <a href="./index.html" class="nav_item">INICIO</a>
+                    <a href="./adultos.html" class="nav_item">ADULTOS</a>
+                    <a href="./niños_adoles.html" class="nav_item">NIÑOS Y ADOLESCENTES</a>
+                    <a href="./empresas.html" class="nav_item">EMPRESAS</a>
+                    <a href="./contacto.html" class="nav_item">CONTACTO</a>
+                </ul>
+            </section>
+        </nav>
+        <div class="text-header">
+            <h1>CONTACTANOS</h1>
+            <p>Obtené las habilidades del idioma, el entendimiento cultural y la confianza
+            para abrir tu mundo con Berlitz. 
+            <br> Aprendé inglés, francés, alemán u otro idioma con expertos.</p> 
+        </div> 
+    </header>
+    <main>
+        <div class="form-flex">
+            <div class="form-container">
+                <h3 class="title">Más Información</h3>
+                <form action="">
+                    <div class="input-container row">
+                        <div class="col-sm-12 col-md-6">
+                            <label for="nombre">Nombre<span class="obligatorio">*</span></label>
+                             <input type="text" id="name">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="nombre">Apellido<span class="obligatorio">*</span></label>
+                                <input type="text" id="name" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="correo">Mail<span class="obligatorio">*</span></label>
+                            <input type="text" id="email" required>
+                         </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="teléfono">Teléfono<span class="obligatorio">*</span></label>
+                             <input type="text" id="tel" placeholder="55 5555 5555" required>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="metodologia">Método de aprendizaje preferido<span class="obligatorio">*</span></label>
+                                <select name="metodologia" id="metodologia">
+                                    <option value="seleccione">Por favor, seleccione</option>
+                                    <option value="adulto">Presencial</option>
+                                    <option value="tutor">Virtual</option>
+                                </select>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="metodologia">¿Quién tomara el programa?<span class="obligatorio">*</span></label>
+                            <select name="presencial" id="presencial">
+                                <option value="seleccione">Por favor, seleccione</option>
+                                <option value="adulto">Programas para Adultos</option>
+                                <option value="tutor">Programas para Niños y jovenes</option>
+                                <option value="tutor">Cultural</option>
+                                <option value="tutor">Programas en el exterior</option>
+                                <option value="tutor">Empresarial</option>
+                            </select>
+                            <select name="virtual" id="virtual">
+                                <option value="seleccione">Por favor, seleccione</option>
+                                <option value="adulto">Autoestudio online</option>
+                                <option value="tutor">Adulto online con instructor en vivo</option>
+                                <option value="tutor">Autoestudio online + instructor privado en vivo</option>
+                                <option value="tutor">Niños y jovenes online con intructor en vivo</option>
+                                <option value="tutor">Programa vacacional para niños y jovenes</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-12">
+                            <label for="mensaje">Comentario</label>
+                            <textarea name="" id="Mensaje" class="block" rows="3" placeholder="Dejanos tu consulta y responderemos a la brevedad"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-prim">Continuar</button>
+                        <p class="warnings" id="warnings"></p>
+                        </div>
+                    </div>
+                </form>
+                    <script src="./js/val_contacto.js"></script>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Encontrá tu curso</h4>
+                    <ul>
+                        <li><a href="">Adultos</a></li>
+                        <li><a href="">Niños y Adolescentes</a></li>
+                        <li><a href="">Empresarial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Acerca de Berlitz</h4>
+                    <ul>
+                        <li><a href="#">Acerca de Berlitz</a></li>
+                        <li><a href="#">Método Berlitz</a></li>
+                        <li><a href="#">Cómo funciona Berlitz</a></li>
+                        <li><a href="#">Aviso Legal</a></li>
+                    </ul>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="">Contactanos</a></li>
+                    </ul>
+                </div>
+                </div><div class="footer-col">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/berlitzargentina"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/berlitz-argentina"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/c/BerlitzCorporationWorldWide"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

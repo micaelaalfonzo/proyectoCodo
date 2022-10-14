@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Playfair+Display:wght@400;600;800&family=Source+Sans+Pro&display=swap');
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #0038DD;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 10px rgb(0, 0, 0.2)
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h3{
+    font-weight: 600;
+}
+
+.container .card button{
+    margin-top: 5%;
+}
+
+.container-text{
+    width: auto;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+
+.text-pp p , li {
+    font-size: 22px;
+
+}
+
+.text-pp p {
+    font-size: 22px;
+    color: #0038DD;
+}
+
+.text-p h3{
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+}
+
+.text-p p , li {
+    padding-top: 20px;
+    font-size: 18px;
+}
